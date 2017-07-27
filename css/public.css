@@ -12,7 +12,7 @@ input, button, select {outline:none;background:none;padding:0;margin:0;font-fami
 select {box-sizing:content-box;}
 img {vertical-align:top;border:0;display:block;max-width:100%;}
 a {text-decoration:none;color:inherit;}
-a:hover {text-decoration:none;}
+a:hover {text-decoration:none;color: #FFFFFF;}
 .clearfix:before, .clearfix:after {content:"";display:table;} .clearfix:after {clear:both;} .clearfix {*zoom:1;}
 table {width:100%;text-align:center;border-collapse:collapse;border:1px solid #ddd;text-align:center;} th,td {border:1px solid #ddd;padding:0;}
 svg {overflow:hidden;vertical-align:middle;}
@@ -241,6 +241,7 @@ animation-fill-mode:forwards;
 }
 .toolbar-layer p{
 	margin-top: 10px;
+	color: #111;
 }
 .toolbar-item-weixin{
 	background: url("../images/weixin.png") no-repeat center;
