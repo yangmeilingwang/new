@@ -1,3 +1,6 @@
+body{
+	 font-family: "微软雅黑";
+}
 .st-cover { background-image: url("../images/banner1.jpg")}
 .st-cover-focus .st-btn {margin-top:13%;}
 a:hover{color: #fff}
