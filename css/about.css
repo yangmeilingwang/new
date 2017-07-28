@@ -181,13 +181,6 @@
 	background-size: 100%;
 }
 
-.rightbox .next a {
-	display: block;
-	width: 12px;
-	height: 17px;
-	background: url(../img/arrow-r.png) no-repeat center;
-	background-size: 100%;
-}
 
 .rightbox .next a:hover {
 	display: block;
@@ -196,6 +189,14 @@
 	background: url(../img/arrow-rred.png) no-repeat center;
 	background-size: 100%;
 }
+.rightbox .next a {
+	display: block;
+	width: 12px;
+	height: 17px;
+	background: url(../img/arrow-r.png) no-repeat center;
+	background-size: 100%;
+}
+
 
 .tel400 {
 	margin-top: 6px;
