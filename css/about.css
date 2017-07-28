@@ -163,12 +163,26 @@
 	background: url(../img/arrow-l.png) no-repeat center;
 	background-size: 100%;
 }
-
-.rightbox .next a {
+.rightbox .prev a:hover {
 	display: block;
 	width: 10px;
 	height: 17px;
+	background: url(../img/arrow-lred.png) no-repeat center;
+	background-size: 100%;
+}
+
+.rightbox .next a {
+	display: block;
+	width: 12px;
+	height: 17px;
 	background: url(../img/arrow-r.png) no-repeat center;
+	background-size: 100%;
+}
+.rightbox .next a:hover {
+	display: block;
+	width: 12px;
+	height: 17px;
+	background: url(../img/arrow-rred.png) no-repeat center;
 	background-size: 100%;
 }
 
@@ -440,4 +454,24 @@
 		font-size:85%;
 	}
 }
-
+.box .op1:hover,
+.box .op2:hover,
+.box .op3:hover,
+.box .op4:hover,
+.box .op5:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*.prev a{
+	display: inline-block;
+   
+    overflow: hidden;
+}
+.prev a:hover{
+	  border-right: 20px solid transparent;
+    -webkit-filter: drop-shadow(20px 0);
+    filter: drop-shadow(20px 0);
+    -webkit-filter: drop-shadow(red 20px 0px);
+    z-index: 99;
+     
+}*/

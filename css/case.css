@@ -273,6 +273,21 @@ a.ico img {
 		font-size:85%;
 	}
 }
-
-
+.box .red1:hover,
+.box .red2:hover,
+.box .red3:hover,
+.box .red4:hover,
+.box .red5:hover,
+.box .red6:hover{
+	color: #ff3366;
+	cursor: pointer;
+}
+.swiper-button-prev:hover{
+	background-color: #D9D9D9;
+	border-radius: 4px;
+}
+.swiper-button-next:hover{
+	background-color: #D9D9D9;
+	border-radius: 4px;
+}
 

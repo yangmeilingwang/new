@@ -138,9 +138,14 @@ $(function(){
 	var img0 = convertCanvasToImage(mycanvas0);
 	$('#maImg').append(img0);
 
-	$(" .mask .pull-right").click(function(event){
+	$(" .mask .pull-right").mouseenter(function(event){
 		event.preventDefault();
 		$(this).removeClass("love-default").addClass("love-active");
+	});
+	$(" #loveActive").one("click",function(){
+		var loveHtml=$(this).next().html();
+		loveHtml++;
+		$(this).next().html(loveHtml);
 	})
 
 });
