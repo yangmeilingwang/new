@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".quests").click(function(){
-		$("#head").slideToggle();
+		$(".st-cover-vr").slideToggle();
 	});
 
 })

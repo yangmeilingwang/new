@@ -297,3 +297,19 @@ a.ico img {
 
 }
 
+.st-cover-vr {display:none;position:absolute;top:0;left:0;width:100%;height:100%;background: #f2f2f2; z-index: 99; margin-top: 72px;}
+.st-cover-vr>.inner {height:100%;}
+.st-cover-vr .l{float: left;width: 38%;height: 100%;text-align: center;background:url(../images/vrbgleft_01.jpg) no-repeat;}
+.st-cover-vr .l>div{margin-top: 45%}
+.st-cover-vr .l>div>span{ font-size: 114% }
+.st-cover-vr .l>div>p{font-size: 171%;margin: 20px 0;font-weight: bold;}
+.st-cover-vr .c{float: left;width: 46.5%;}
+.st-cover-vr .c>a{position: relative;display: block;}
+.st-cover-vr .c>a img{height: 33.333vh;max-width: 100%;}
+.st-cover-vr .c>a>i{width: 100%;transition: width .5s linear;position: absolute;top: 0;left: 0;background-color: rgba(0,0,0,.6);height: 100%;}
+.st-cover-vr .c>a:hover>i{width: 0}
+.st-cover-vr .c>a>span{display: block;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);color: #fff;font-size: 185%;text-align: center;z-index: 10;}
+.st-cover-vr .c>a:hover>span{display: none}
+.st-cover-vr .r{float:right;width: 12%;text-align: right;margin-right: 10px;margin-top: 10px}
+.st-cover-vr .r img{float: right;  width: 72px; margin-right: 10px;  margin-top: 10px;}
+.st-cover-vr .r span{margin: 0 10px;}

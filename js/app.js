@@ -12,6 +12,7 @@ var publicFn = {
 		var ico = $('.st-cover-menuico');
 		var menu = $('.st-cover-menu');
 		var vr=$('.st-cover-vr');
+		var too=$('.toolbar');
 
 		ico.on('click',function(){
 			if( shade.hasClass('active') ) {
@@ -56,6 +57,7 @@ var publicFn = {
 				menu.removeClass("active");
 			},20)
 			ico.hide();
+			too.hide();
 			vr.show();
 		}
 
@@ -149,7 +151,20 @@ $(function(){
 	})
 
 });
+var aDiv = document.getElementById('box').getElementsByTagName('a');
+var aLi = document.getElementById('ul').getElementsByTagName('li');
 
-
+for(var i=0;i<aDiv.length;i++){
+	aDiv[i].index = i;
+	
+	aDiv[i].onclick = function(){
+		
+		for(var j=0;j<aLi.length;j++){
+			
+			aLi[j].style.display = 'none';
+	}
+aLi[this.index].style.display = 'block';
+	};
+};
 
 
