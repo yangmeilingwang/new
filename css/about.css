@@ -440,4 +440,24 @@
 		font-size:85%;
 	}
 }
-
+.box .op1:hover,
+.box .op2:hover,
+.box .op3:hover,
+.box .op4:hover,
+.box .op5:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*.prev a{
+	display: inline-block;
+   
+    overflow: hidden;
+}
+.prev a:hover{
+	  border-right: 20px solid transparent;
+    -webkit-filter: drop-shadow(20px 0);
+    filter: drop-shadow(20px 0);
+    -webkit-filter: drop-shadow(red 20px 0px);
+    z-index: 99;
+     
+}*/
