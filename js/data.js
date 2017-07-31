@@ -3,8 +3,8 @@
                     "titlePic":"img/1from scratch to do the decoration.png" ,
                      "content":"<p>YOHO's founder team received the first projectWe gradually won a good reputation with the serious and responsible attitude and good construction quality.</p>",
                      "imagePic":"img/photo2005-10-6.jpg",
-                     "MemDate":"11月20日",
-                     "MemTime":"17:32",
+                     "MemDate":"10月06日",
+                     "MemTime":"09:36",
                      "x":"YOHO's first order",
                      "linebg":"img/time 2009-03-12.png"
                 },
@@ -12,7 +12,7 @@
                     "titlePic":"img/2READY TO REGISTER COMPANY.png" ,
                      "content":"<p>Before 2008, we focused on the studio model of piecemeal project design,After the team has been deposited and accumulated, the next annual plan will be announced at the plenary meeting on December 24, and the time is ripe for the establishment of the company.</p>",
                      "imagePic":"img/photo2007-12-24.jpg",
-                     "MemDate":"12月24日",
+                     "MemDate":"12月25日",
                      "MemTime":"16:28",
                      "x":"READY TO REGISTER COMPANY",
                      "linebg":"img/time 2010-04-30.png"
