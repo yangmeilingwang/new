@@ -353,12 +353,15 @@
 	font-size: 16px;
 }
 
-#about .box a {
+/*#about .box a {
 	font-family: "微软雅黑";
 	font-size: 20px;
 	color: #f36;
+}*/
+#about .box a:hover{
+	color: #FFFFFF;
+	
 }
-
 .box .col-md-4 .ex {
 	color: #333;
 	font-family: "微软雅黑";
@@ -371,7 +374,6 @@
 
 
 /*小菜单*/
-
 
 @media screen and (max-width: 1200px) {
 	.st-cover-vr .r img {
@@ -590,4 +592,32 @@
 	.st-cover-vr .c>a>span {
 		font-size: 14px;
 	}
+}
+
+.dot {
+	width: 1rem;
+	height: 1rem;
+	background: #f36;
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	margin-top: .8rem;
+}
+
+.year {
+	position: absolute;
+	color: #fff;
+	width: 200%;
+	margin-top: 20px;
+	left: 50%;
+	margin-left: -2%;
+}
+
+.year span {
+	margin-right: 3.5%;
+}
+
+.bg {
+	position: absolute;
 }
