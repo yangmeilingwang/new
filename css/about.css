@@ -236,6 +236,7 @@
 
 #about .box a.ico img {
 	width: 100%;
+	margin-top: -5px;
 }
 
 #timeline {
@@ -353,15 +354,12 @@
 	font-size: 16px;
 }
 
-/*#about .box a {
+#about .box a {
 	font-family: "微软雅黑";
 	font-size: 20px;
 	color: #f36;
-}*/
-#about .box a:hover{
-	color: #FFFFFF;
-	
 }
+
 .box .col-md-4 .ex {
 	color: #333;
 	font-family: "微软雅黑";
@@ -374,6 +372,78 @@
 
 
 /*小菜单*/
+
+.toolbar {
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+	z-index: 99999;
+	display: none;
+}
+
+.toolbar-item {
+	display: block;
+	width: 52px;
+	height: 52px;
+	margin-top: 10px;
+	position: relative;
+	opacity: .4;
+}
+
+.toolbar-layer {
+	display: none;
+	position: absolute;
+	right: 65px;
+	top: 0px;
+	width: 150px;
+	filter: alpha(opacity=0);
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 0 5px 5px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, .1);
+	text-align: center;
+	font-size: 114%;
+}
+
+#triangle-right {
+	position: absolute;
+	right: -10px;
+	top: 21px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid #fff;
+	border-bottom: 10px solid transparent;
+}
+
+.toolbar-layer p {
+	margin-top: 10px;
+}
+
+.toolbar-item-weixin {
+	background: url("../images/weixin.png") no-repeat center;
+	background-color: #000;
+}
+
+.toolbar-item-weixin:hover .toolbar-layer {
+	display: block;
+}
+
+.toolbar-item-feedback {
+	background: url("../images/kefu.png") no-repeat center;
+	background-color: #000;
+}
+
+.toolbar-item-top {
+	background: url("../images/arrow.png") no-repeat center;
+	background-color: #000;
+}
+
+.toolbar-item:hover {
+	background-color: #ff3366;
+	opacity: 1;
+}
 
 @media screen and (max-width: 1200px) {
 	.st-cover-vr .r img {
@@ -593,31 +663,71 @@
 		font-size: 14px;
 	}
 }
-
-.dot {
-	width: 1rem;
-	height: 1rem;
-	background: #f36;
+#maImg img {vertical-align:top;border:0;display:block;max-width:100%;}
+.toolbar {
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+	z-index: 99999;
+	display: none;
+}
+.toolbar-item {
 	display: block;
+	width: 52px;
+	height: 52px;
+	margin-top: 10px;
+	position: relative;
+	opacity: .4;
+}
+.toolbar-layer {
+	display: none;
 	position: absolute;
-	border-radius: 50%;
-	left: 50%;
-	margin-top: .8rem;
+	right: 65px;
+	top: 0px;
+	width: 150px;
+
+	filter: alpha(opacity=0);
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+	text-align: center;
+	font-size: 114%;
+}
+#triangle-right {
+	position: absolute;
+	right: -10px;
+	top: 21px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 10px solid #fff;
+	border-bottom: 10px solid transparent;
+
+}
+.toolbar-layer p{
+	margin-top: 10px;
+	color: #111;
+}
+.toolbar-item-weixin{
+	background: url("../images/weixin.png") no-repeat center;
+	background-color: #000;
 }
 
-.year {
-	position: absolute;
-	color: #fff;
-	width: 200%;
-	margin-top: 20px;
-	left: 50%;
-	margin-left: -2%;
+.toolbar-item-weixin:hover .toolbar-layer{
+	display: block;
+}
+.toolbar-item-feedback {
+	background: url("../images/kefu.png") no-repeat center;
+	background-color: #000;
 }
 
-.year span {
-	margin-right: 3.5%;
+.toolbar-item-top{
+	background: url("../images/arrow.png") no-repeat center;
+	background-color: #000;
 }
-
-.bg {
-	position: absolute;
+.toolbar-item:hover {
+	background-color: #ff3366;
+	opacity: 1;
 }
