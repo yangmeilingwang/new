@@ -12,7 +12,6 @@ var publicFn = {
 		var ico = $('.st-cover-menuico');
 		var menu = $('.st-cover-menu');
 		var vr=$('.st-cover-vr');
-		var too=$('.toolbar');
 
 		ico.on('click',function(){
 			if( shade.hasClass('active') ) {
@@ -57,7 +56,6 @@ var publicFn = {
 				menu.removeClass("active");
 			},20)
 			ico.hide();
-			too.hide();
 			vr.show();
 		}
 
@@ -122,49 +120,31 @@ $(function(){
 			$(".toolbar").css({"display":"none"});
 		}
 	});
-	$('#maCanvas').qrcode({
-		width: 130,
-		height:130,
-		text: "https://www.baidu.com/"
-	});
-	//从canvas中提取图片image
-	function convertCanvasToImage(canvas) {
-		//新Image对象，可以理解为DOM
-		var image = new Image();
-		// canvas.toDataURL 返回的是一串Base64编码的URL，当然,浏览器自己肯定支持
-		// 指定格式PNG
-		image.src = canvas.toDataURL("image/png");
-		return image;
-	}
-	var mycanvas0=document.getElementsByTagName('canvas')[0];
-	var img0 = convertCanvasToImage(mycanvas0);
-	$('#maImg').append(img0);
+	//$('#maCanvas').qrcode({
+	//	width: 130,
+	//	height:130,
+	//	text: "www.yohosj.com"
+	//});
+	////从canvas中提取图片image
+	//function convertCanvasToImage(canvas) {
+	//	//新Image对象，可以理解为DOM
+	//	var image = new Image();
+	//	// canvas.toDataURL 返回的是一串Base64编码的URL，当然,浏览器自己肯定支持
+	//	// 指定格式PNG
+	//	image.src = canvas.toDataURL("image/png");
+	//	return image;
+	//}
+	//var mycanvas0=document.getElementsByTagName('canvas')[0];
+	//var img0 = convertCanvasToImage(mycanvas0);
+	//$('#maImg').append(img0);
 
 	$(" .mask .pull-right").mouseenter(function(event){
 		event.preventDefault();
 		$(this).removeClass("love-default").addClass("love-active");
-	});
-	$(" #loveActive").one("click",function(){
-		var loveHtml=$(this).next().html();
-		loveHtml++;
-		$(this).next().html(loveHtml);
 	})
 
 });
-var aDiv = document.getElementById('box').getElementsByTagName('a');
-var aLi = document.getElementById('ul').getElementsByTagName('li');
 
-for(var i=0;i<aDiv.length;i++){
-	aDiv[i].index = i;
-	
-	aDiv[i].onclick = function(){
-		
-		for(var j=0;j<aLi.length;j++){
-			
-			aLi[j].style.display = 'none';
-	}
-aLi[this.index].style.display = 'block';
-	};
-};
+
 
 

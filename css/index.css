@@ -1,34 +1,31 @@
-body{
-	 font-family: "微软雅黑";
-}
-
-/*头部*/
+/*header .hero, section .heroFull {*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*height: 100vh;*/
+    /*min-height: 500px;*/
+/*}*/
+/*.cover {*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+/*.bkg006 {*/
+    /*background: url("../images/banner001_02.jpg") center center no-repeat fixed;*/
+/*}*/
+/*.circleReveal, .circleRevealSmall {*/
+    /*background: url("../images/ellipse1.png") center center no-repeat;*/
+/*}*/
+/*.circleAbout, .circleExperience, .circleRespond, .circleReveal, .circleShare, .circleThanks {*/
+    /*width: 640px!important;*/
+    /*height: 640px;*/
+/*}*/
+/*.mobilevertcenter{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:80%}*/
+/*#group-leads .logo img,#hotel-web-design .logo img,#on-property-mobile-solutions .logo img,#online-hospitality-proposals .logo img{max-height:none;width:100%;height:auto;margin:0 auto;padding-left:10.5%;padding-right:8.5%}.ContentRight{position:relative;float:right;width:50%;padding:0 2.5%;height:70vh;max-height:800px}*/
+/*.logo img{max-height:30px;  height:auto}*/
+/*.circleReveal h1{color:#fff;text-decoration:none;line-height:40px;text-align:center;text-transform:none;font-family:Raleway;font-weight:300;padding:12px 0;width:80%;margin:0 auto}*/
 
 /*主体*/
-.st-title {text-align:center;padding-bottom:50px;}
-.st-title-tt {font-size:24px;position:relative;line-height:30px;padding-bottom:15px;}
-.st-title-tt:before {content:"";position:absolute;bottom:0;left:50%;height:4px;width:70px;background:#f36;margin-left:-35px;}
-.st-title-padtop {padding-top:70px;}
-.st-title-theme .st-title-tt {color:#f36;}
-
-#main {
-
-
-}
-.title{
-    width: 100%;
-    margin: 20px auto;
-}
-.title .hr{
-    width:5%;
-    height: 5%;
-    border: 5px solid #ff3366;
-    /*margin-left: 30%;*/
-    text-align: center;
-    margin: 15px auto;
-}
-
-
 
 .brand {background:#fff;}
 .brand .st-col-3>.items>.item {text-align:center;}
@@ -45,133 +42,32 @@ body{
 .st-maxw {width:100%;max-width:1200px;margin:0 auto;box-sizing:border-box;}
 
 
-.st-col-3>.items>.item {float:left;display:block;width:32.6666%;margin-left:1%;}
-.st-col-3>.items>.item:first-child {margin-left:0;}
+#eliteDesign{background-image: url("../images/banner001_02.jpg")  }
+#classicCase{background-image: url("../images/banner001_04.jpg")   }
+#strategicDevelopment {background-image: url("../images/banner001_06.jpg") }
+.ellipse{  }
+.circle{width: 30vw !important;height: 30vw;margin: 0 auto;background-size: cover;}
+.circle h1{margin: 10px 0;}
+.absolute{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);}
+.circle .absolute{left: 50%; top: 50%; transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%); -moz-transform:translate(-50%,-50%)}
+.circle .absolute h1{margin: 0 auto; font-size: 6rem}
+.circle .absolute p{margin: 0 auto; font-size: 2.4rem}
 
-
-#main-list1 h4{
-    margin: 10px 0;
-}
-#brand{
-    width: 80%;
-     margin: 10px auto;
-     /*position: relative;*/
-     /*left: 50%;*/
-     /*transform: translateX(-50%);*/
-     /*-webkit-transform: translateX(-50%);*/
-     /*-moz-transform: translateX(-50%);*/
- }
-#brand>div{
-    width: 30%;
-    margin: 10px;
-    float: left;
-    overflow: hidden;
-}
-#brand>div>img{
-    width: 100%;
-    /*margin: 0 auto;*/
-}
-#brand>div>img{
-    -webkit-transition:all 0.3s ease-in-out;
-    -moz-transition:all 0.3s ease-in-out;
-    transition:all 0.3s ease-in-out;
-}
-
-#brand>div:hover>img{
-    -moz-transform:scale(1.1);
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
-}
-#brand>div>h4{
-    margin: 10px 0;
-}
-#brand:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-#main-list1>div:last-child{
-   padding: 20px 0;
-}
-
-#eliteDesign{
-    background: url("../images/eliteDesign.png") no-repeat center;
-
-
-}
-.ellipse{
-    position: relative;
-
+.fixed-bg{
     height: 100vh;
-    /*height: 860px;*/
     color: #fff;
-    margin: 20px 0;
-}
-.circle{
-    width: 30vw !important;
-    height: 30vw;
-    margin: 0 auto;
+    position: relative;
     background-size: cover;
-}
-.circle h1{
-    margin: 10px 0;
-}
-
-.absolute{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-
-}
-
-#shufflingArticle{
-    width: 100%;
-}
-#shufflingArticle>div{
-    /*position: relative;*/
-    /*left: 50%;*/
-    /*transform: translateX(-50%);*/
-    /*width: 100%;*/
-    /*margin-left:45%;*/
-    width: 35%;
-    margin: 0 auto;
-    padding-left: 11.5%;
-}
-#shufflingArticle>div:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-#shufflingArticle a{
-    display: block;
-    width: 15%;
-    height: 10px;
-    border: 1px solid #999;
-    float: left;
-    margin: 0 5px;
-
-}
-#shufflingArticle a.active{
-    background-color: #ff3366;
-    border-color: transparent;
-}
-div.display-none{
-    display: none;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 
-
-#classicCase{
-    background: url("../images/classicCase.png") no-repeat center;
-
-}
 #caseTree{
-    /*max-width: ;*/
+
 }
-.case-tree {background:url("../images/case-tree-bg.jpg") no-repeat center center fixed ;background-size:cover;}
+.case-tree {background:url("../images/case-tree-bg.jpg") no-repeat center center fixed ;background-size:cover; min-height: 100%;}
 .case-tree>.st-maxw {max-width:1360px;}
 .case-tree .items>.item {display:block;}
 .case-tree .items>.item>.inner {max-width:520px;}
@@ -180,7 +76,7 @@ div.display-none{
 .case-tree .items>.item .pic:hover img {-webkit-transform:scale(0.9);-moz-transform:scale(0.9);transform:scale(0.9);}
 .case-tree .items>.item .para {padding:10px 0;}
 .case-tree .items>.item .para a {font-size:20px;}
-.case-tree .items>.item .para a:hover {text-decoration:underline;}
+.case-tree .items>.item .para a:hover {text-decoration:underline;color: #111;}
 .case-tree .items>.item.item01>.inner {padding-top:5%;}
 .case-tree .items>.item.item02>.inner,
 .case-tree .items>.item.item05>.inner,
@@ -198,21 +94,15 @@ div.display-none{
     padding: 10px;
     margin: 10px auto;
     width: 260px;
-
     font-size: 114%;
 }
 #findMore:hover{
     color: #fff;
     border-color: transparent;
     background-color: #ff3366;
-
 }
 
 
-#strategicDevelopment {
-    background: url("../images/strategicDevelopment.png") no-repeat center;
-
-}
 
 
 /*合作伙伴*/
@@ -233,9 +123,7 @@ div.display-none{
 
 
 /*尾部*/
-footer h1{
-    color: #ff3366;
-}
+footer h1{color: #ff3366;  }
 /*st-ctct*/
 .st-ctct {background:#2f2f2f;color:#eee;padding:70px 0;}
 .st-ctct .copyright {text-align:center;font-size:13px;}
@@ -247,10 +135,17 @@ footer h1{
 
 
 
-@media screen and  (max-width: 1500px){
-
+@media screen and  (max-width: 1600px){
+    .circle .absolute h1{ font-size: 4.8rem}
+    .circle .absolute p{ font-size: 2.2rem}
 }
-
+@media screen and (max-width: 1500px) {
+    .case-tree>.st-maxw {max-width:1200px;}
+}
+@media screen and  (max-width: 1300px){
+    .circle .absolute h1{ font-size: 4rem}
+    .circle .absolute p{ font-size: 1.8rem}
+}
 @media screen and  (max-width: 1200px){
     #head>div:last-child>div:last-child span{
         margin: 0 ;
@@ -268,15 +163,15 @@ footer h1{
     .case-tree .items>.item.item02>.inner,
     .case-tree .items>.item.item05>.inner,
     .case-tree .items>.item.item08>.inner {float:right;margin-top:0;}
-
-}
-@media screen and (max-width: 1500px) {
-    .case-tree>.st-maxw {max-width:1200px;}
-}
-
-@media screen and  (max-width: 1200px){
     .case-tree>.st-maxw {max-width:960px;}
+
 }
+@media screen and  (max-width: 1080px){
+    .circle .absolute h1{ font-size: 3.3rem}
+    .circle .absolute p{ font-size: 1.5rem}
+}
+
+
 @media screen and  (max-width: 960px){
     .case-tree>.st-maxw {max-width:768px;}
 
@@ -387,5 +282,7 @@ footer h1{
         margin: 5px 0;
         font-size:85%;
     }
+    .circle .absolute h1{ font-size: 3rem}
+    .circle .absolute p{ font-size: 1.5rem}
 }
 
