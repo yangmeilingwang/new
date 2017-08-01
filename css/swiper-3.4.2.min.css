@@ -153,6 +153,7 @@
 	background-image: url("../img/left-arrow.png");
 	left: 0;
 	right: auto;
+	padding: 33px 26px;
 }
 
 .swiper-button-prev.swiper-button-black,
@@ -171,6 +172,7 @@
 	background-image: url("../img/right-arrow.png");
 	right: 0px;
 	left: auto;
+	padding: 33px 26px;
 }
 
 .swiper-button-next.swiper-button-black,

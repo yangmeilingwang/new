@@ -1,29 +1,29 @@
 $(document).ready(function(){
-	$(".pic-3").click(function(){
+	$(".dian").hover(function(){
 		$(".fenxiang .tu").slideToggle();
 	});
 
 })
 $(document).ready(function(){
-	$(".pic-3-2").click(function(){
+	$(".dian2").hover(function(){
 		$(".fenxiang .tu2").slideToggle();
 	});
 
 })
 $(document).ready(function(){
-	$(".pic-3-1").click(function(){
+	$(".dian1").hover(function(){
 		$(".fenxiang .tu1").slideToggle();
 	});
 
 })
 $(document).ready(function(){
-	$(".pic-3-3").click(function(){
+	$(".dian3").hover(function(){
 		$(".fenxiang .tu3").slideToggle();
 	});
 
 })
 $(document).ready(function(){
-	$(".pic-3-4").click(function(){
+	$(".dian4").hover(function(){
 		$(".fenxiang .tu4").slideToggle();
 	});
 

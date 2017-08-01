@@ -129,6 +129,7 @@ a.ico img {
 
 .container h5 {
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .box img {
@@ -304,17 +305,19 @@ a.ico img {
 .swiper-button-next:hover {
 	background-color: #D9D9D9;
 }
+
 .st-cover-vr {
-		display: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #f2f2f2;
-		z-index: 99;
-		margin-top: 72px;
-	}
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f2f2f2;
+	z-index: 99;
+	margin-top: 72px;
+}
+
 .st-cover-vr>.inner {
 	height: 100%;
 }
@@ -411,4 +414,24 @@ a.ico img {
 	.st-cover-vr .c>a>span {
 		font-size: 14px;
 	}
+}
+
+.right-top {
+	margin-bottom: 10px;
+}
+
+.designer img {
+	margin: 10px 0;
+}
+
+.designer-info p {
+	margin: 5px 0;
+}
+
+.love {
+	margin-top: 10px;
+}
+
+.containe .col-md-12 {
+	margin-left: 78px;
 }

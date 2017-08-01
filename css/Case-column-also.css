@@ -82,8 +82,11 @@
 	color: #999999;
 	font-family: "微软雅黑";
 	font-size: 16px;
+	padding: 5px 0;
 }
-
+.container-fluid{
+	margin-bottom: 55px;
+}
 .text .ch {
 	color: #666666;
 	font-family: "微软雅黑";

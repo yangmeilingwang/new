@@ -34,11 +34,17 @@
 	color: #fe3266;
 	margin-top: 0;
 	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #f36;
 }
 
 #about .box h4 {
 	margin: 0;
 	margin-top: 50px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: #666666;
 }
 
 #about .box2 h4 {
@@ -83,6 +89,7 @@
 	color: #fff;
 	padding: 10px;
 	padding-bottom: 100px;
+	height: 575px;
 }
 
 #YOHO .box h2 {
@@ -116,7 +123,7 @@
 }
 
 #YOHO .box .leftbox p {
-	padding: 0;
+	padding: 10px 0;
 	margin: 0;
 	font-size: 12px;
 	color: #ccc;
@@ -229,9 +236,8 @@
 
 #about .box a.ico img {
 	width: 100%;
+	margin-top: -5px;
 }
-
-.tel400 {}
 
 #timeline {
 	position: relative;
@@ -277,6 +283,7 @@
 	text-decoration: none;
 	color: #000000;
 	font-size: 30px;
+	border-bottom: 3px solid #ff3366;
 }
 
 .container .news:hover {
@@ -301,6 +308,14 @@
 
 .container .mt80 {
 	margin-top: 80px;
+}
+
+.col-md-9 p {
+	margin-top: -6px;
+}
+
+.year1 {
+	margin-top: 17px;
 }
 
 .container .col-md-9 p:nth-child(1) {
@@ -336,10 +351,19 @@
 .col-md-4 p {
 	margin-bottom: 13px;
 	color: #999999;
+	font-size: 16px;
+}
+
+#about .box a {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #f36;
 }
 
 .box .col-md-4 .ex {
-	color: #000000;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 20px;
 }
 
 .toolbar {
