@@ -144,6 +144,21 @@ $(function(){
 	})
 
 });
+var aDiv = document.getElementById('box').getElementsByTagName('a');
+var aLi = document.getElementById('ul').getElementsByTagName('li');
+
+for(var i=0;i<aDiv.length;i++){
+	aDiv[i].index = i;
+	
+	aDiv[i].onclick = function(){
+		
+		for(var j=0;j<aLi.length;j++){
+			
+			aLi[j].style.display = 'none';
+	}
+aLi[this.index].style.display = 'block';
+	};
+};
 
 
 
