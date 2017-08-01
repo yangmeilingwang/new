@@ -63,7 +63,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #ccc; }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #ccc; }
 
 
-img {vertical-align:top;border:0;display:block;max-width:100%;}
+#maImg img {vertical-align:top;border:0;display:block;max-width:100%;}
 .toolbar {
 	position: fixed;
 	right: 20px;
