@@ -3,8 +3,13 @@
                     "titlePic":"img/1from scratch to do the decoration.png" ,
                      "content":"<p>YOHO's founder team received the first projectWe gradually won a good reputation with the serious and responsible attitude and good construction quality.</p>",
                      "imagePic":"img/photo2005-10-6.jpg",
+<<<<<<< HEAD
                      "MemDate":"09月36日",
                      "MemTime":"17:32",
+=======
+                     "MemDate":"10月06日",
+                     "MemTime":"09:36",
+>>>>>>> 26861d40a270fe1d4e630423443f0994ddfc5039
                      "x":"YOHO's first order",
                      "linebg":"img/time2005-10-06.png"
                 },
